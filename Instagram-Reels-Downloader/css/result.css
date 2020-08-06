@@ -1,5 +1,4 @@
 
-
 .image-placeholder {
   margin: auto;
   width: 89%;
@@ -9,19 +8,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  
+  background-image: url(https://webdevtrick.com/wp-content/uploads/image-placeholder.png);
   
   
 }
-@media (max-width: 420px) {
-  .image-placeholder {
-    width: 220px;
-    max-width: 220px;
-    height: 580px;
-    background-size: contain;
-    background-position: center center;
-    background-attachment: scroll;
-  }
+
 
 
   .result {
@@ -50,17 +41,4 @@
   border-color: #f9f9f9;
   cursor: pointer;
   transition: all 500ms ease;
-}
-@media (max-width: 600px) {
-  .result {
-    position: absolute;
-    top: 4em;
-    left: 0;
-    right: 0;
-    height: calc(100% - 10em);
-    overflow-y: auto;
-    max-width: 40em;
-    background: #f9f9f9;
-    margin: auto;
-  }
 }
