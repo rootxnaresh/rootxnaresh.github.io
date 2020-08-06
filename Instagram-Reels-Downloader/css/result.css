@@ -1,4 +1,3 @@
-
 .image-placeholder {
   margin: auto;
   width: 89%;
@@ -8,23 +7,21 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(https://webdevtrick.com/wp-content/uploads/image-placeholder.png);
-  
-  
+  background-image: url(https://webdevtrick.com/wp-content/uploads/image-placeholder.png);  
 }
-
-
 
   .result {
   margin: 0 auto;
   padding: 4em 1em;
   max-width: 40em;
 }
+
 .result video,
 .result img {
   width: calc(70% - 4em);
   margin: 2em;
 }
+
 .result .download {
   text-decoration: none;
   display: inline-block;
@@ -35,6 +32,7 @@
   color: #f9f9f9;
   transition: all 500ms ease;
 }
+
 .result .download:focus,
 .result .download:hover {
   background: #208bfd;
